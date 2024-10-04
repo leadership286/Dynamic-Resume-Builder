@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background:url(background.jpg);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+input, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2,h3,h4{
+    font-size: 30px;
+}
+button {
+    
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #53eb17;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #deeb2d, 0 0 30px #f8d404, 0 0 40px #fbf161;
+    transform: scale(1.05);
+}
+
+
+
+
+#resumeOutput {
+    border: 3px solid #6811cc;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
